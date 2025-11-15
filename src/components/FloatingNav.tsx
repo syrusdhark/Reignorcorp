@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, Briefcase, Zap, Users, BookOpen, Mail } from 'lucide-react';
+import { Home, Briefcase, Zap, Users, BookOpen, Mail, Settings } from 'lucide-react';
 
 interface NavItem {
   icon: React.ReactNode;
@@ -10,6 +10,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { icon: <Home size={20} />, label: 'Home', href: '#home' },
   { icon: <Briefcase size={20} />, label: 'Solutions', href: '#solutions' },
+  { icon: <Settings size={20} />, label: 'Services', href: '#services' },
   { icon: <Zap size={20} />, label: 'Capabilities', href: '#capabilities' },
   { icon: <Users size={20} />, label: 'Clients', href: '#clients' },
   { icon: <BookOpen size={20} />, label: 'Insights', href: '#insights' },

@@ -4,6 +4,7 @@ import { CursorGlow } from './components/CursorGlow';
 import { FloatingNav } from './components/FloatingNav';
 import { HeroNeuralNetwork } from './components/HeroNeuralNetwork';
 import { SolutionsUniverse } from './components/SolutionsUniverse';
+import { ServicesNexus } from './components/ServicesNexus';
 import { CapabilitiesTheater } from './components/CapabilitiesTheater';
 import { ClientsConstellation } from './components/ClientsConstellation';
 import { InsightsStream } from './components/InsightsStream';
@@ -42,6 +43,9 @@ export default function App() {
 
         {/* Solutions Section - Interactive Universe */}
         <SolutionsUniverse />
+
+        {/* Services Section - Services Nexus */}
+        <ServicesNexus />
 
         {/* Capabilities Section - Data Theater */}
         <CapabilitiesTheater />
